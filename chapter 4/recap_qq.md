@@ -1,8 +1,11 @@
 1. What is a computation?
-computation is transforming inputs into outputs! in our case numbers to another numbers
+
+Computation is transforming inputs into outputs! in our case numbers to another numbers
+
 2. What do we mean by inputs and outputs to a computation? Give examples.
 
 Give me your birth date/year and current year and I'll compute your current age. Birth date and current year are inputs and your current age is output
+
 3. What are the three requirements a programmer should keep in mind when expressing computations?
 
 Correctness - program must give results which fulfill our needs. No matter how fast or simple it is if it doesn't solve the problem.
@@ -15,6 +18,7 @@ Efficiency - when it doesn't confront first 2 requirements, we should express co
 4. What does an expression do?
 
 They represent computations, variables which values will be used in computations, processes to store some values in some objects/variable. So expressions are small bricks that are conceptually bond with computations - says expression thinks about computation
+
 5. What is the difference between a statement and an expression, as described in this chapter?
 
 6. What is an lvalue? List the operators that require an lvalue. Why do these operators, and not the others, require an lvalue?
