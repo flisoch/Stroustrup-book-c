@@ -33,7 +33,20 @@ int main() {
 //        string s = "ape"; if (s<"fool") cout << "Success!\n";
 //        13. vector<char> v(5); for (int i=0; 0<v.size(); ++i) ; cout << "Success!\n";
 //            i don't know!
-
+//        14. vector<char> v(5); for (int i=0; i<=v.size(); ++i) ; cout << "Success!\n";
+//            already works!
+//        15. string s = "Success!\n"; for (int i=0; i<6; ++i) cout << s[i];
+//          i < 6; -> i<s.size();
+//        16. if (true) then cout << "Success!\n"; else cout << "Fail!\n";
+//          remove 'then'
+//        17.  int x = 2000; char c = x; if (c==2000) cout << "Success!\n";
+//          char c = x; -> int c = x;
+//        18. string s = "Success!\n"; for (int i=0; i<10; ++i) cout << s[i];
+//          works!
+//        vector v(5); for (int i=0; i<=v.size(); ++i) ; cout << "Success!\n";
+//        add type to vector definition e.g. vector<int>
+//        int i=0; int j = 9; while (i<10) ++j; if (j<i) cout << "Success!\n";
+//        ++j; -> ++i;
         keep_window_open();
         return 0;
     }
