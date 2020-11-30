@@ -1,0 +1,2 @@
+Still don't understand how/where to handle errors, but it seems like this Phrase from book contains some sort of solution: "Decide how to report errors: “Use error() and catch exception in main()” will be your default answer in this book.". 
+So if some function can produce errors, we should consider them and put some `throw` words when errors can occur. And in the function that calls our function we can `catch` errors that hypothetically can occur
